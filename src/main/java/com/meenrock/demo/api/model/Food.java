@@ -14,4 +14,19 @@ public class Food {
         this.restaurant_id = restaurantId;
         this.food_type_id = foodTypeId;
     }
+
+    public int getFoodId() {
+        return food_id;
+    }
+
+    public String getFoodName(int foodId) {
+        return food_name;
+    }
+
+    public int getFoodPrice(int foodId) {
+        return food_price;
+    }
+
+
+
 }
