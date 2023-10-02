@@ -1,13 +1,13 @@
 package com.meenrock.demo.api.model;
 
 public class Food {
-    private int food_id;
+    private Long food_id;
     private String food_name;
     private int food_price;
     private int restaurant_id;
     private int food_type_id;
 
-    public Food(int foodId, String foodName, int foodPrice, int restaurantId, int foodTypeId) {
+    public Food(Long foodId, String foodName, int foodPrice, int restaurantId, int foodTypeId) {
         this.food_id = foodId;
         this.food_name = foodName;
         this.food_price = foodPrice;
@@ -15,17 +15,22 @@ public class Food {
         this.food_type_id = foodTypeId;
     }
 
-    public int getFoodId() {
+    public Long getFoodId() {
         return food_id;
     }
 
-    public String getFoodName(int foodId) {
+    public String getFoodName(long foodId) {
         return food_name;
     }
 
     public int getFoodPrice(int foodId) {
         return food_price;
     }
+
+    public int getFoodRestaurantId(int restaurantId) {
+        return restaurant_id;
+    }
+
 
 
 
