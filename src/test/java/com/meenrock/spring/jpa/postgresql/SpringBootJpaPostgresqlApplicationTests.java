@@ -1,10 +1,10 @@
-package com.meenrock.demo;
+package com.meenrock.spring.jpa.postgresql;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JavaDemoApplicationTests {
+class SpringBootJpaPostgresqlApplicationTests {
 
 	@Test
 	void contextLoads() {
